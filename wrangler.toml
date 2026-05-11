@@ -1,0 +1,12 @@
+name = "bellas-world"
+compatibility_date = "2026-05-10"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bellas-guestbook"
+database_id = "7e436a48-9050-45af-82b8-24970a7ecfb2"
+
+[[services]]
+binding = "RT"
+service = "bellas-guestbook-rt"
