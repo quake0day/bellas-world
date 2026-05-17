@@ -84,6 +84,7 @@ function Nav({ name }) {
           <li><a href="#friends">{tr("my faves", "我的最爱", "我的最愛")}</a></li>
           <li><a href="#diary">{tr("diary", "日记", "日記")}</a></li>
           <li><a href="#wall">{tr("photos", "照片墙", "照片牆")}</a></li>
+          <li><a href="/violin/">{tr("violin ♪", "小提琴 ♪")}</a></li>
           <li><a href="#guest">{tr("guestbook", "留言板")}</a></li>
         </ul>
         <a href="#guest" className="nav-cta">{tr("sign my page", "来给我留言", "來給我留言")} <span>♡</span></a>
@@ -819,6 +820,7 @@ function Footer({ name }) {
               <li><a href="#friends">{tr("my faves", "我的最爱", "我的最愛")}</a></li>
               <li><a href="#diary">{tr("diary", "日记", "日記")}</a></li>
               <li><a href="#wall">{tr("photo wall", "照片墙", "照片牆")}</a></li>
+              <li><a href="/violin/">{tr("violin ♪", "小提琴 ♪")}</a></li>
             </ul>
           </div>
           <div>
